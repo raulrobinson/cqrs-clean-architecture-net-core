@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\raulrobinson\\cqrs-clean-architecture-net-core\\Api\\Api.csproj": {}
+    "C:\\Users\\rasys\\Documents\\cqrs-clean-architecture-net-core\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\raulrobinson\\cqrs-clean-architecture-net-core\\Api\\Api.csproj": {
+    "C:\\Users\\rasys\\Documents\\cqrs-clean-architecture-net-core\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\raulrobinson\\cqrs-clean-architecture-net-core\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\rasys\\Documents\\cqrs-clean-architecture-net-core\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\user\\source\\repos\\raulrobinson\\cqrs-clean-architecture-net-core\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\raulrobinson\\cqrs-clean-architecture-net-core\\Api\\obj\\",
+        "projectPath": "C:\\Users\\rasys\\Documents\\cqrs-clean-architecture-net-core\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\rasys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rasys\\Documents\\cqrs-clean-architecture-net-core\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rasys\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,23 +56,23 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -8,9 +8,12 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar DbContext con MySQL
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
+//    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
-    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+    options.UseSqlServer("Server=localhost,1433;Database=master;User Id=sa;Password=TuPassword123;TrustServerCertificate=True;"));
 
 // Inyección de dependencias
 builder.Services.AddScoped<IUserRepository, UserRepository>();
